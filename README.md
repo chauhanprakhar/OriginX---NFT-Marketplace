@@ -1,6 +1,6 @@
 `#Ethereum`
 
-# mTC - NFT Marketplace
+# OriginX - NFT Marketplace
 
 This is an open decentralized NFT Marketplace built with smart contracts powered by Ethereum. It basically consists in an open platform where each user can mint his own NFT and expose it on a marketplace.
 
@@ -15,10 +15,6 @@ This is an open decentralized NFT Marketplace built with smart contracts powered
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### The repository
-
-First, you will need to `clone` or `fork` the repository into your Github account:
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
 
 ```
 $ git clone https://github.com/miquelTC/nft-marketplace.git
@@ -84,25 +80,6 @@ Finally you just need to run the following command in your terminal to open the 
 $ npm start
 ```
 
-### Deployment on Public Network
-
-In order to deploy your smart contract, you must create your .env file and specify:
-
-- `PRIVATE_KEYS` --> Private Key of the account you are using to deploy (typically the first one in the list of Ganache)
-- `INFURA_API_KEY` --> API key provided by Infura: https://infura.io
-
-Then, you will need to run the following command (let's use the testnet Ropsten in this example, remember to request some Ether for your account using a faucet):
-
-```
-$ truffle migrate --network ropsten
-```
-
-Finally you can run the following command to generate the build artifacts of your User Interface and then deploy to your favourite host:
-
-```
-npm run build
-```
-
 
 ### Technology stack
 
@@ -132,7 +109,6 @@ The user can access the application via web-browser, and he must have the Metama
 
 ### NFT Marketplace features
 
-<img src="./img/layout.PNG" alt="layout">
 
 The user can perform the following actions on this NFT Marketplace:
 
