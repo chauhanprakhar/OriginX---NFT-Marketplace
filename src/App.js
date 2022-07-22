@@ -126,7 +126,8 @@ const App = () => {
     };
     
     loadBlockchainData();
-  },[]);
+    // eslint-disable-next-line
+  }, []);
 
   const showNavbar = web3 && collectionCtx.contract && marketplaceCtx.contract;
   const showContent = web3 && collectionCtx.contract && marketplaceCtx.contract && web3Ctx.account;
