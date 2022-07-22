@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Content/MintNFT/MintForm.css","webpack://src/components/Content/NFTCollection/collection.css"],"names":[],"mappings":"AAAA,KAEI,UACJ,CCHA,WDCI,wBCCJ","file":"main.b92e15b4.chunk.css","sourcesContent":[".btn{\n    background-color:#e897e7;\n    color: black;\n}",".card{\n    background-color: #e897e7;\n}"]}
